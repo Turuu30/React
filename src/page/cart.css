@@ -1,0 +1,97 @@
+
+.body{
+    width: 100%;
+    background-color: #2f2f2f;
+    display: flex;
+    justify-content: center;
+    flex-wrap: wrap;
+}
+.counter{
+    width: 1200px;
+    height: 90%;
+    background-color: #fdf9f6;
+    border-radius: 30px;
+    overflow: hidden;
+}
+.header{
+    width: 100%;
+    height: 80px;
+    background-color: #fdf9f6;
+    box-shadow: -1px 1px 3px rgb(168, 168, 168) ,1px 1px 3px rgb(168, 168, 168);
+}
+.persons{
+    width: 100%;
+    display: flex;
+    flex-wrap: wrap;
+}
+.persenCart{
+    overflow: hidden;
+    box-sizing: border-box;
+    width: 230px;
+    /* height: 250px; */
+    background-color: white;
+    border-radius: 20px;
+    padding: 20px;
+    border: 1px solid black;
+}
+.personHeader{
+    display: flex;
+    justify-content: space-between;
+}
+h3{
+    margin:0;
+}
+p{
+    margin: 0;
+    color: rgb(179, 179, 179);
+}
+.profile{
+    width: 50px;
+    height: 50px;
+    border-radius: 50%;
+}
+.star{
+    width: 50px;
+    height: 50px;
+}
+.text{
+    font-size: 15px;
+}
+.add{
+    width: 20px;
+    height: 20px;
+    border: 50%;
+}
+.experiences{
+    margin-top:10px;
+    font-weight: 400;
+    overflow: scroll;
+    height: 100px;
+    /* overflow: hidden; */
+    /* font-family:; */
+}
+.view{
+    position: absolute;
+    bottom: 0;
+    left: 0;
+    width: 210px;
+    height: 60px;
+    background-color: white;   
+    border-top: 1px solid rgb(204, 204, 204);
+    box-shadow: -10px -10px 10px white , 10px -10px 10px white;
+    display: flex;
+    align-items: center;
+    justify-content: space-between;
+    padding: 0 20px;
+}
+button{
+    width: 80px;
+    height: 25px;
+    background-color: white;
+    border: 1px solid rgb(204, 204, 204);
+}
+.links img{
+    width: 15px;
+    margin: 5px;
+    opacity: 0.5;
+}
